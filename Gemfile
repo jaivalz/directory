@@ -17,6 +17,8 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem bootstrap
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
+# gem font-awesome
+gem "font-awesome-rails"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
