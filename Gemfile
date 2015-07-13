@@ -26,6 +26,9 @@ gem 'simple_form'
 # gem devise
 gem 'devise'
 
+# gravatar
+gem 'gravatarify', '~> 3.0.0'
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
