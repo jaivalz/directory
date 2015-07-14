@@ -29,6 +29,9 @@ gem 'devise'
 # gravatar
 gem 'gravatarify', '~> 3.0.0'
 
+#geocoder
+gem 'geocoder'
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
