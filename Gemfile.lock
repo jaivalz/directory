@@ -46,6 +46,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    aegis (2.5.3)
     arel (6.0.2)
     bcrypt (3.1.10)
     binding_of_caller (0.7.2)
@@ -186,6 +187,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aegis
   byebug
   coffee-rails (~> 4.1.0)
   devise

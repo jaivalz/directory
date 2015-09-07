@@ -3,7 +3,7 @@
 <table class="table">
   <thead>
     <tr>
-      <th>Name</th>
+      <th>Names ames</th>
       <th>Address</th>
       <th>Phone</th>
       <th>Website</th>
@@ -12,6 +12,7 @@
   </thead>
 
   <tbody>
+    <% if current_user.may_read_place? post %>
     <% @places.each do |place| %>
       <tr>
         <td><%= link_to place.name, place_path(place) %></td>
@@ -20,6 +21,7 @@
         <td><%= place.website %></td>
         <td><div class="average_<%= place.id %>"></div></td>
       </tr>
+    <% end %>
     <% end %>
   </tbody>
 </table>
